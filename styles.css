@@ -1,1 +1,85 @@
-/* Add Global styles here */
+body {
+  background-color: #248fb9b7;
+}
+.navbar ul {
+  list-style-type: none;
+  background-color: rgba(41, 85, 136, 0.925);
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  border-style:double;
+  border-radius: 15px;
+  font-size:22px;
+}
+.navbar a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 17px;
+  display: block;
+  text-align: center;
+}
+.navbar a:hover{
+  background-color: rgba(82, 163, 196, 0.925);
+}
+.navbar li{
+  float: left;
+}
+p {
+font-size: 18px;
+font-family: "Roboto Condensed", sans-serif;
+font-weight: 400;
+}
+
+.elec {
+  display: flex;
+  flex-direction:inherit;
+  flex-wrap: wrap; 
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.lute {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap; 
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.lute1 {
+  font-size:27px;
+}
+.mandolin {
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap: nowrap; 
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+.mandolin1 {
+   font-size:27px;
+}
+.intre {
+font-size:28px
+}
+.headingintrustments {
+  font-size:40px
+}
+.ukulele {
+  display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap; 
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.ukulele1 {
+  font-size:27px;
+}
+.banjo {
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap: nowrap; 
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+.banjo1 {
+   font-size:27px;
+}
