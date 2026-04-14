@@ -1,28 +1,45 @@
 body {
   background-color: #248fb9b7;
 }
+.navbar {
+  position: fixed; /* so it stays at top */
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  transition: top 0.3s; /* smooth hide/show */
+}
+
 .navbar ul {
   list-style-type: none;
   background-color: rgba(41, 85, 136, 0.925);
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  border-style:double;
+  border-style: double;
   border-radius: 15px;
-  font-size:22px;
+  font-size: 22px;
 }
-.navbar a{
+
+.navbar li {
+  float: left;
+}
+
+.navbar a {
   color: rgb(0, 0, 0);
   text-decoration: none;
   padding: 17px;
   display: block;
   text-align: center;
 }
-.navbar a:hover{
+
+.navbar a:hover {
   background-color: rgba(82, 163, 196, 0.925);
 }
-.navbar li{
-  float: left;
+
+/* more padding so content doesn't hide behind navbar */
+body {
+  padding-top: 70px; 
 }
 p {
 font-size: 18px;
@@ -45,7 +62,7 @@ font-weight: 400;
   align-content: flex-start;
 }
 .lute1 {
-  font-size:27px;
+  font-size:25px;
 }
 .mandolin {
   display: flex;
@@ -55,13 +72,13 @@ font-weight: 400;
   align-content: flex-end;
 }
 .mandolin1 {
-   font-size:27px;
+   font-size:25px;
 }
 .intre {
-font-size:28px
+font-size:26px
 }
 .headingintrustments {
-  font-size:40px
+  font-size:30px
 }
 .ukulele {
   display: flex;
@@ -71,7 +88,7 @@ font-size:28px
   align-content: flex-start;
 }
 .ukulele1 {
-  font-size:27px;
+  font-size:25px;
 }
 .banjo {
   display: flex;
@@ -81,5 +98,5 @@ font-size:28px
   align-content: flex-end;
 }
 .banjo1 {
-   font-size:27px;
+   font-size:25px;
 }
