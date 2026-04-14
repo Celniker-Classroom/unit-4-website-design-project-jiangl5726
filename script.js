@@ -12,3 +12,8 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 };
+
+function myFunction1() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

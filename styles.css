@@ -12,12 +12,12 @@ body {
 
 .navbar ul {
   list-style-type: none;
-  background-color: rgba(41, 85, 136, 0.925);
+  background-color: rgba(71, 124, 184, 0.925);
   margin: 0px;
   padding: 0px;
   overflow: hidden;
-  border-style: double;
-  border-radius: 15px;
+  border-style:double;
+  border-radius: 0px;
   font-size: 22px;
 }
 
@@ -60,6 +60,7 @@ font-weight: 400;
   flex-wrap: nowrap; 
   justify-content: flex-start;
   align-content: flex-start;
+  gap: 20px;
 }
 .lute1 {
   font-size:25px;
@@ -86,6 +87,7 @@ font-size:26px
   flex-wrap: nowrap; 
   justify-content: flex-start;
   align-content: flex-start;
+  gap: 20px;
 }
 .ukulele1 {
   font-size:25px;
@@ -99,4 +101,34 @@ font-size:26px
 }
 .banjo1 {
    font-size:25px;
+}
+input[type="button"] {
+  padding: 12px 30px;               
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(to bottom, #4CAF50, #45A049); 
+  color: white;
+  border: none;
+  border-radius: 8px;               
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2); 
+  transition: transform 0.1s, background 0.1s, box-shadow 0.1s;
+}
+
+/* Hover effect */
+input[type="button"]:hover {
+  background: linear-gradient(to bottom, #45A049, #3e8e41);
+  box-shadow: 0 6px 8px rgba(0,0,0,0.25);
+}
+
+/* Pressed effect */
+input[type="button"].pressed,
+input[type="button"]:active {
+  transform: scale(0.95);           
+  background: linear-gradient(to bottom, #3e8e41, #2e6b31); /* darker color */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); 
+}
+.dark-mode {
+  background-color: rgb(23, 108, 142);
+  color: white;
 }
