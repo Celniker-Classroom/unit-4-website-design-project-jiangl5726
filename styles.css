@@ -63,7 +63,7 @@ font-weight: 400;
   gap: 20px;
 }
 .lute1 {
-  font-size:25px;
+  font-size:27px;
 }
 .mandolin {
   display: flex;
@@ -73,13 +73,13 @@ font-weight: 400;
   align-content: flex-end;
 }
 .mandolin1 {
-   font-size:25px;
+   font-size:27px;
 }
 .intre {
-font-size:26px
+font-size:30px;
 }
 .headingintrustments {
-  font-size:30px
+  font-size:32px;
 }
 .ukulele {
   display: flex;
@@ -90,7 +90,7 @@ font-size:26px
   gap: 20px;
 }
 .ukulele1 {
-  font-size:25px;
+  font-size:27px;
 }
 .banjo {
   display: flex;
@@ -100,7 +100,7 @@ font-size:26px
   align-content: flex-end;
 }
 .banjo1 {
-   font-size:25px;
+   font-size:27px;
 }
 input[type="button"] {
   padding: 12px 30px;               
@@ -131,4 +131,13 @@ input[type="button"]:active {
 .dark-mode {
   background-color: rgb(23, 108, 142);
   color: white;
+}
+.intres {
+  font-size: 25px;
+}
+h2 {
+  font-size: 30px;
+}
+.brands {
+  font-size: 25px;
 }
