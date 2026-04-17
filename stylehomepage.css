@@ -1,0 +1,17 @@
+.textintro {
+    font-size: 25px;
+}
+.eleclink {
+    font-size: 25px;
+    flex: 1;
+    padding: 20px;
+}
+.elec1 {
+    font-size: 25px;
+    flex: 1;
+}
+.elec {
+  display: flex; /* Enables flexbox */
+  align-items: center; /* Aligns items to the top */
+  gap: 10px; /* Space between images and text */
+}

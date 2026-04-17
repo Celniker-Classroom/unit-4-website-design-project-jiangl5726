@@ -16,7 +16,7 @@ button.addEventListener('touchcancel', removePressed);
 
 // click action
 button.addEventListener('click', () => {
-  alert("Clicking on the image to the right of the button will redirect you to Amazon!");
+  alert("Clicking on the image to the left of the button will redirect you to Amazon!");
 });
 
 function myFunction() {

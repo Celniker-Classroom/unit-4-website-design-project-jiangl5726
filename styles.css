@@ -46,7 +46,6 @@ font-size: 18px;
 font-family: "Roboto Condensed", sans-serif;
 font-weight: 400;
 }
-
 .elec {
   display: flex;
   flex-direction:inherit;
@@ -140,4 +139,46 @@ h2 {
 }
 .brands {
   font-size: 25px;
+}
+.listclass {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-end;
+  gap: 10px;           
+}
+
+.list {
+  flex: 1;
+  font-size: 25px;             
+}
+
+.wraps {
+  float: left;    
+  margin: 10px;  
+  width: 220px;   
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse; 
+  justify-content: flex-end;    
+  align-items: center;
+  gap: 20px;
+}
+.effectimages {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px;
+  flex-shrink: 0; 
+}
+
+.effects {
+  font-size: 22px;
+}
+.textss {
+  font-size: 25px;
+}
+.linket {
+  font-size:20px;
 }
