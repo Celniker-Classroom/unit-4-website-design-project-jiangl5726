@@ -17,3 +17,14 @@ function myFunction1() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+const links = document.querySelectorAll('ol li');
+/* pressed down effect for brand buttons (makes it more like a button) */
+links.forEach(link => {
+  link.addEventListener('mousedown', () => {
+    link.style.transform = "scale(0.95)";
+  });
+  
+  link.addEventListener('mouseup', () => {
+    link.style.transform = "scale(1)";
+  });
+});

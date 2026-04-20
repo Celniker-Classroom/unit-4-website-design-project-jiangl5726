@@ -1,0 +1,29 @@
+p {
+    font-size: 25px;
+}
+.singersimages {
+  display: flex;
+  justify-content: center; 
+  gap: 15px;              
+  flex-wrap: wrap;        
+}
+.acousticguitars {
+  display: flex;
+  justify-content: center; 
+  gap: 15px;              
+  flex-wrap: wrap; 
+}
+.singerswithclassic {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 15px;              
+  flex-wrap: wrap; 
+}
+.classicalguitars {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 15px;              
+  flex-wrap: wrap; 
+}
