@@ -11,7 +11,100 @@
     flex: 1;
 }
 .elec {
-  display: flex; /* Enables flexbox */
-  align-items: center; /* Aligns items to the top */
-  gap: 10px; /* Space between images and text */
+  display: flex; 
+  align-items: center; 
+  gap: 10px;
+}
+ .accoustic {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+
+  .contents {
+    flex: 2; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+
+  .imagees {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  .fontsize {
+    font-size: 25px;
+  }
+   .classical {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+
+  .contents2 {
+    flex: 2; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .images2 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  .fontsize2 {
+    font-size: 25px;
+  }
+  .otherinstru {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+  }
+
+  .contents3 {
+    flex: 2; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+
+  .images3 {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  .fontsize3 {
+    font-size: 25px;
+  }
+  .column {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 8px;               
+}
+th, td {
+  border: 1px solid black;
+  padding: 12px; 
+  text-align: left; 
+}
+table {
+  width: 100%;
+  font-size: 22px; 
+}
+button {
+  padding: 10px 15px; 
+  font-size: 18px;   
+  cursor: pointer;     
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
+}
+h3 {
+    font-size: 25.5px;
 }

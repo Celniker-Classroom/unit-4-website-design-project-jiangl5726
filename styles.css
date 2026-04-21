@@ -77,9 +77,6 @@ font-weight: 400;
 .intre {
 font-size:30px;
 }
-.headingintrustments {
-  font-size:32px;
-}
 .ukulele {
   display: flex;
   flex-direction:row;
@@ -135,7 +132,7 @@ input[type="button"]:active {
   font-size: 25px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 26px;
 }
 .brands {
   font-size: 25px;
@@ -224,9 +221,6 @@ h4 {
 h5 {
   font-size: 26px;
 }
-h2 {
-    text-align: center;
-}
 .imagesbands {
   display: flex;
   justify-content: center; 
@@ -235,4 +229,13 @@ h2 {
 }
 .banjo {
   max-width: 1500px;
+}
+button {
+    cursor: pointer;   
+    padding: 5px 8px; 
+    font-size: 14px;      
+}
+h1 {
+    text-align: center;
+    font-size: 35px;
 }
