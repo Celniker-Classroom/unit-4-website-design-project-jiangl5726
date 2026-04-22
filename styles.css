@@ -41,7 +41,7 @@ body {
 body {
   padding-top: 70px; 
 }
-p {
+body {
 font-size: 18px;
 font-family: "Roboto Condensed", sans-serif;
 font-weight: 400;
@@ -75,7 +75,7 @@ font-weight: 400;
    font-size:27px;
 }
 .intre {
-font-size:30px;
+font-size:28px;
 }
 .ukulele {
   display: flex;
@@ -226,9 +226,6 @@ h5 {
   justify-content: center; 
   gap: 15px;              
   flex-wrap: wrap; 
-}
-.banjo {
-  max-width: 1500px;
 }
 button {
     cursor: pointer;   
